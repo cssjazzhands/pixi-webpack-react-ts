@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ScreenStateMachine, type ScreenEvent, type ScreenId } from './screens/ScreenStateMachine';
-import { getRegisteredScreen } from './screens/registry';
+import { ScreenStateMachine, type ScreenEvent, type ScreenId } from './visualisation/screens/ScreenStateMachine';
+import { getRegisteredScreen } from './visualisation/screens/registry';
 
 export default function App() {
   const machineRef = useRef(new ScreenStateMachine());

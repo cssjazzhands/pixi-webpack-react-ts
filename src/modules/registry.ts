@@ -1,6 +1,6 @@
 import * as PIXI from 'pixi.js';
-import { IRenderer } from '../classes/IRenderer';
-import { createGridRenderer } from '../classes/GridSystem';
+import { IRenderer } from '../visualisation/IRenderer';
+import { createGridRenderer } from '../visualisation/GridSystem';
 
 export type RendererLike = IRenderer & {
   initialize?: (app: PIXI.Application) => void;
